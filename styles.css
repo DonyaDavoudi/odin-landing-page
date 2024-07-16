@@ -65,7 +65,7 @@ ul{
 }
 
 button{
-  padding: 8px 30px;
+  padding: 8px 40px;
   border-radius: 8px;
   border: none;
 }
@@ -125,6 +125,35 @@ button{
   margin: 0;
   font-weight: bold;
 }
+
+.invite{
+  padding: 80px;
+}
+
+.call-to-action{
+  margin: 0 200px;
+  padding: 50px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.call-to-action button{
+  border: solid 2px white;
+}
+
+.call-to-action p{
+  margin: 0;
+}
+
+h4{
+  margin: 0;
+  padding: 0;
+}
+
+
 
 
 
