@@ -6,6 +6,8 @@ h1{
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
+  margin: 0;
+  padding: 0;
 }
 
 h2{
@@ -14,7 +16,7 @@ font-weight: bolder;
 color:#1f2937;
 }
 
-.hero, .footer{
+.top, .footer{
   background-color: #1f2937;
   color: white;
 }
@@ -51,6 +53,28 @@ ul{
 .hero-link{
   font-size: 18px;
   color: #E5E7EB;
+}
+
+.hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:200px;
+}
+
+.hero-text{
+  width: 40%;
+}
+
+button{
+  padding: 8px 30px;
+  border-radius: 8px;
+  border: none;
+}
+
+.hero-image{
+  background-color: #6D747D;
+  padding: 150px;
 }
 
 .quote-text{
