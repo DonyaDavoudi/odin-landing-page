@@ -23,10 +23,6 @@ padding-top: 30px;
   color: white;
 }
 
-.quote{
-  background-color: #E5E7EB;
-}
-
 button, .call-to-action{
   background-color: #3882F6;
   color: white;
@@ -106,10 +102,28 @@ button{
   border-radius: 15px;
 }
 
+.quote{
+  background-color: #E5E7EB;
+  padding: 150px 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-box{
+  width: 830px;
+}
+
 .quote-text{
   font-size: 36px;
   font-style: italic;
   font-weight: light;
+  margin: 0;
+}
+
+.thor{
+  padding-left: 60%;
+  margin: 0;
+  font-weight: bold;
 }
 
 
